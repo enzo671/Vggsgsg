@@ -1,0 +1,56 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #101418;
+  color: #f3f4f6;
+}
+
+header {
+  text-align: center;
+  padding: 1rem 0.5rem;
+  border-bottom: 1px solid #243242;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 260px;
+  gap: 1rem;
+  padding: 1rem;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+canvas {
+  width: 100%;
+  height: auto;
+  border: 1px solid #2d3a4a;
+  border-radius: 8px;
+  image-rendering: pixelated;
+  background: #87ceeb;
+}
+
+.hud {
+  background: #161f29;
+  border: 1px solid #2d3a4a;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+#inventory {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+#inventory li {
+  margin-bottom: 0.3rem;
+}
+
+@media (max-width: 980px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}

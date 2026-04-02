@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lite Cgrft</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Lite Cgrft</h1>
+      <p>WASD para mover • Clique esquerdo para quebrar • Clique direito para colocar</p>
+    </header>
+
+    <main>
+      <canvas id="game" width="960" height="540" aria-label="Jogo Lite Cgrft"></canvas>
+      <aside class="hud">
+        <h2>Inventário</h2>
+        <ul id="inventory"></ul>
+        <h2>Bloco selecionado</h2>
+        <p id="selected-block"></p>
+        <h2>Controles</h2>
+        <p>1 = Grama • 2 = Terra • 3 = Pedra • 4 = Madeira • 5 = Folha</p>
+      </aside>
+    </main>
+
+    <script src="game.js"></script>
+  </body>
+</html>
